@@ -1984,7 +1984,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x290e
+.text           0x00000000     0x2918
  *(.vectors)
  .vectors       0x00000000      0x1fc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega256a3bu/avrxmega6/crtatxmega256a3bu.o
                 0x00000000                __vector_default
@@ -2328,34 +2328,34 @@ END GROUP
  .text.setup_timer
                 0x00002214       0x38 src/main.o
                 0x00002214                setup_timer
- .text.main     0x0000224c       0xc0 src/main.o
+ .text.main     0x0000224c       0xca src/main.o
                 0x0000224c                main
  .text.libgcc.div
-                0x0000230c       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega6\libgcc.a(_udivmodsi4.o)
-                0x0000230c                __udivmodsi4
+                0x00002316       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+                0x00002316                __udivmodsi4
  .text.avr-libc
-                0x00002350       0x6c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(snprintf.o)
-                0x00002350                snprintf
+                0x0000235a       0x6c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(snprintf.o)
+                0x0000235a                snprintf
  .text.avr-libc
-                0x000023bc      0x3ee c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(vfprintf_std.o)
-                0x000023bc                vfprintf
+                0x000023c6      0x3ee c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(vfprintf_std.o)
+                0x000023c6                vfprintf
  .text.avr-libc
-                0x000027aa       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(strnlen_P.o)
-                0x000027aa                strnlen_P
+                0x000027b4       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(strnlen_P.o)
+                0x000027b4                strnlen_P
  .text.avr-libc
-                0x000027c0       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(strnlen.o)
-                0x000027c0                strnlen
+                0x000027ca       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(strnlen.o)
+                0x000027ca                strnlen
  .text.avr-libc
-                0x000027d6       0x78 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(fputc.o)
-                0x000027d6                fputc
+                0x000027e0       0x78 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(fputc.o)
+                0x000027e0                fputc
  .text.avr-libc
-                0x0000284e       0xbc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(ultoa_invert.o)
-                0x0000284e                __ultoa_invert
-                0x0000290a                . = ALIGN (0x2)
+                0x00002858       0xbc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega6\libc.a(ultoa_invert.o)
+                0x00002858                __ultoa_invert
+                0x00002914                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000290a        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega6\libgcc.a(_exit.o)
-                0x0000290a                _exit
-                0x0000290a                exit
+ .fini9         0x00002914        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega6\libgcc.a(_exit.o)
+                0x00002914                _exit
+                0x00002914                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -2374,11 +2374,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000290a        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega6\libgcc.a(_exit.o)
+ .fini0         0x00002914        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega6\libgcc.a(_exit.o)
  *(.fini0)
-                0x0000290e                _etext = .
+                0x00002918                _etext = .
 
-.data           0x00802000       0x18 load address 0x0000290e
+.data           0x00802000       0x18 load address 0x00002918
                 0x00802000                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -2483,8 +2483,8 @@ END GROUP
  COMMON         0x0080232c        0x6 src/ASF/common/services/sleepmgr/xmega/sleepmgr.o
                 0x0080232c                sleepmgr_locks
                 0x00802332                PROVIDE (__bss_end, .)
-                0x0000290e                __data_load_start = LOADADDR (.data)
-                0x00002926                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00002918                __data_load_start = LOADADDR (.data)
+                0x00002930                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00802332        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
@@ -2675,7 +2675,7 @@ END GROUP
  .debug_frame   0x000015c4       0x24 src/ASF/xmega/boards/xmega_a3bu_xplained/init.o
  .debug_frame   0x000015e8       0x70 src/main.o
 
-.debug_str      0x00000000    0x33570
+.debug_str      0x00000000    0x335c1
  *(.debug_str)
  .debug_str     0x00000000     0x21e4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega256a3bu/avrxmega6/crtatxmega256a3bu.o
  .debug_str     0x000021e4    0x2c85f src/ASF/common/components/display/st7565r/st7565r.o
@@ -2704,7 +2704,7 @@ END GROUP
                               0x29b2e (size before relaxing)
  .debug_str     0x00032618       0xf7 src/ASF/xmega/boards/xmega_a3bu_xplained/init.o
                               0x2b7cf (size before relaxing)
- .debug_str     0x0003270f      0xe61 src/main.o
+ .debug_str     0x0003270f      0xeb2 src/main.o
                               0x2fe21 (size before relaxing)
 
 .debug_loc      0x00000000     0x76d0

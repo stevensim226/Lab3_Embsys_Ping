@@ -91,7 +91,7 @@ int main (void)
 		}
 		cpu_irq_disable(); //Interrupt dimatikan
 		
-		snprintf(buffarray, sizeof(buffarray), "Panjang: %d cm  ", incremental);
+		snprintf(buffarray, sizeof(buffarray), "Panjang: %d cm  ", incremental/2);
 		gfx_mono_draw_string(buffarray, 0, 0, &sysfont);
 	}
 }
